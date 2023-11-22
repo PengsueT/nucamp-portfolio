@@ -1,0 +1,18 @@
+.navbar-nav{
+    background-color: #005B41;
+    
+}
+body {
+    background-color: #86A789;
+    color: #001524;
+}
+.container-header, .row-content{
+    padding: 20px;
+}
+.navbar-nav span{
+    padding-left: 5px;
+}
+.nav-item :hover{ 
+    background-color: white;
+    color: #005B41; 
+}

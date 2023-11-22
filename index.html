@@ -4,10 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charles Nucamp Portfolio</title>
+<!--Bootstrap CDN Link-->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+<!--Font Awesome CDN Link-->
+<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        
+<!--Header-->
+    <header class="container-header">
+        <div class="header content">
+            <div class="row">
+                <div class="text-center">
+                    <img src="images/profile.png" alt="a picture of Charles">
+                </div>
+                <div class="text-center">
+                    <h1>Profile</h1>
+                    <h5>I'm an aspiring Web Developer</h5>
+                    <p>Hello, my name is Charles Thao and I am twenty one years old.</p>
+                </div>
+            </div>
+        </div>
     </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="xx" height="30" width="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="portfolioNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house fa-la"></i><span>Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa-solid fa-info fa-lg"></i><span>About Me</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-solid fa-address-card fa-lg"></i><span>Contact Me</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Main-->
+<hr>
+    <main>
+        <div class="experience row-content">
+            <h3>Experience:</h3>
+            <div class="">
+                <h4>California Conservation Corps</h4>
+                <p> Los Padre CCC/San Luis Obispo,California</p>
+                <ul class="">
+                    <li>Tool Maintance</li>
+                    <li>Ocreano Dunes planting projectsm restoration for native plants</li>
+                    <li>Santa Barbara Flood Control</li> 
+                    <li>Chainsaw Fuels management control with Santa Barbara Flood Control</li>
+                    <li>Buck dead down trees</li>
+                    <li>Trail Maintance</li>
+                </ul>
+            </div>
+        </div>
+<hr>
+        <div class="target row-content">
+            <h3>Target</h3>
+            <div class="">
+                <ul>
+                    <li>Guest Service</li>
+                    <li>Cart manager gathering carts</li>
+                    <li>Cashier</li>
+                    <li>Online pickup orders</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <!--Bootstrap Javascript Pluggins-->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
