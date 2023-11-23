@@ -1,0 +1,33 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-position: center 43%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    opacity: .3;
+}
+
+body::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    content: '';
+    height: 234px;
+    width: 100vw;
+    background: linear-gradient(to bottom,rgba(0,0,0,.78) 0%,rgba(0,0,0,.6) 46%,rgba(0,0,0,0) 100%)
+}

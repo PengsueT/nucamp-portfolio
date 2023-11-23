@@ -1,0 +1,19 @@
+
+.header-h1 {
+    text-align: center;
+}
+.navbar-nav{
+    background-color: #005B41;
+    
+}
+.navbar-nav span{
+    padding-left: 5px;
+}
+.nav-item :hover{ 
+    background-color: #3A4D39;
+    color: white; 
+}
+footer {
+    background-color: #86A789;
+}
+
