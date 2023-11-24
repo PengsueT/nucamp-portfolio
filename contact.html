@@ -12,23 +12,105 @@
 <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
 <link rel="stylesheet" href="css/contact.css">
 </head>
-<header class="container">
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top container-nav">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/treebg.jpg" height="30" width="30"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="portfolioNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-la"></i><span>Home</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa-solid fa-info fa-lg"></i><span>About Me</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-solid fa-address-card fa-lg"></i><span>Contact Me</span></a></li>
-                </ul>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top container-nav">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/treebg.jpg" height="30" width="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="portfolioNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-la"></i><span>Home</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa-solid fa-info fa-lg"></i><span>About Me</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa-solid fa-address-card fa-lg"></i><span>Contact Me</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Contact Me</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="col-4 col-sm-2 offset-1 mt-3">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <div class="col-sm-4 text-center mt-3">
+                    <i class="fa-solid fa-phone fa-lg text-primary"></i> Tel:(559)-493-1904
+                    <i class="fa-solid fa-envelope fa-lg text-primary"></i> Email: thaocharles23@gmail.com
+                </div>
             </div>
         </div>
-    </nav>
-</header>
-<body>
-    
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Send us your Feedback</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+    <form class="container">
+        <div class="row mb-3">
+            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="areaCode" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+                <input type="tel" class="form-control" name="areaCode" id="areaCode" placeholder="Area Code">
+            </div>
+            <div class="col">
+                <input type="tel" class="form-control" name="telNum" placeholder="Tel. Number">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col offset-md-2">
+                May I contact you?
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes">
+                    <label for="contactYes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="contactRadios" id="contactNo" value="no">
+                    <label for="contactNo" class="form-check-label">No</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="feedback" class="col-md-2 col-form-control">Your Feedback</label>
+            <div class="col-md-10">
+                <textarea class="form-control" name="feedback" id="feedback" rows="8"></textarea>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Send Feedback</button>
+            </div>
+        </div>
+    </form>
+</div>
 </body>
